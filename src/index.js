@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import HelloWorld from './components/HelloWorld';
 import HelloStudent from './components/HelloStudent';
+import HelloWarren from './components/HelloWarren';
+
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -12,6 +15,8 @@ ReactDOM.render(
     <HelloStudent name="React Application" />
     <HelloStudent name="Redux" />
     <HelloStudent name="React Router" />
+    <HelloWarren />
+
 </>
   </React.StrictMode>,
   document.getElementById('root')
